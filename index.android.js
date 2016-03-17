@@ -16,7 +16,7 @@ const {
 } = React;
 
 const store = createStore(todoApp)
-const ReactNativeReduxTodoApp = React.createClass({
+const Objective2 = React.createClass({
    render: function() {
       return(
          <Provider store={store}>
@@ -26,4 +26,4 @@ const ReactNativeReduxTodoApp = React.createClass({
    }
 });
 
-AppRegistry.registerComponent('ReactNativeReduxTodoApp', () => ReactNativeReduxTodoApp);
+AppRegistry.registerComponent('Objective2', () => Objective2);

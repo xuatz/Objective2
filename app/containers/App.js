@@ -13,7 +13,7 @@ var {
 	View,
 } = React;
 
-var ReactNativeReduxTodoApp = React.createClass({
+var Objective2 = React.createClass({
 
 	render: function() {
 		const { dispatch, visibleTodos, visibilityFilter } = this.props;
@@ -63,7 +63,7 @@ var styles = StyleSheet.create({
 	},
 });
 
-ReactNativeReduxTodoApp.propTypes = {
+Objective2.propTypes = {
 	visibleTodos: React.PropTypes.arrayOf(
 		React.PropTypes.shape({
 			text: React.PropTypes.string.isRequired,
@@ -94,4 +94,4 @@ function select(state) {
 	}
 }
 
-export default connect(select)(ReactNativeReduxTodoApp);
+export default connect(select)(Objective2);

@@ -1,4 +1,4 @@
-# ReactNativeReduxTodoApp
+# Objective2
 This is React Native version of Redux tutorial(http://rackt.org/redux/docs/basics/ExampleTodoList.html).
 
 9th March 2016 - Updated application from react-native 0.14.1 to 0.21.0
@@ -18,7 +18,9 @@ react-native run-android
 
 ## Future Implementations
 1. Able to toggle todo between 'active' and 'completed
-2. Persistent data storage
-3. Accounts system
-4. Cloud data sync
-5. UI improvement
+1. Persistent data storage
+1. Accounts system
+1. Cloud data sync
+1. Improve UI
+1. Redefine todo as a "task"? (Necessary?)
+1. Increase the amount of states of a task (include 'In-Progress', 'Limbo')
