@@ -8,7 +8,7 @@
   "dependencies": {
     "lodash": "^4.0.1",
     "moment": "^2.11.1",
-    "react-native": "^0.21.0",
+    "react-native": "^0.39.1",
     "react-native-button": "^1.2.1",
     "react-redux": "^3.1.0",
     "redux": "^3.0.4"
